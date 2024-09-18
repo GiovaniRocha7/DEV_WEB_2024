@@ -1,0 +1,15 @@
+#p1{
+    color: brown;
+
+}
+#p2{
+    color: gold;
+}
+/* toda vez que eu precisar acessar um id nocss devo utilizar o # antes do nome identificador */
+/* toda vez que eu precisar acessar uma class no css devo utilizar o . ponto final antes do identificador */
+.divs{
+    background-color: aqua;
+}
+#G1{color: red;
+
+}
