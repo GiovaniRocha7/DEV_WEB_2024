@@ -1,0 +1,39 @@
+body{
+    background-image: url(./download.jfif);
+    background-size: 90%;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+#p1{
+   /* border-width: 2px;
+    border-color: aqua;
+    border-style: solid;*/
+    border: dashed 5px aqua;
+}
+
+#p2{
+    box-shadow: 10px 10px 2% gold;
+
+}
+#I1{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+#I2{
+    width: 560px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+figcaption[
+
+]
+figure{
+    border: 5px solid;
+    border-radius: 20px;
+    text-align: center;
+}
