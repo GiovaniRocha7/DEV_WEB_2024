@@ -24,3 +24,21 @@ input:focus{
 li{
 
 }
+#P2::after{
+    content : " - aqui nos addemos o affter";
+}
+#P2::before{
+    content: " - aqui addemos before"
+    
+    ;
+}
+.P3::first-letter{
+    font-size: 4em;
+    color: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    
+}
+.P3::first-letter{
+    background-color: rgb(red, green, blue);
+}    
