@@ -1,0 +1,31 @@
+.item{
+    border: 1px solid black;
+    width: 60px;
+    height: 70px;
+    background-color: aquamarine;
+    flex-grow: 1;
+
+}
+#container{
+    height: 70vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap:wrap-reverse;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; (caucula o tamanho da tela e menor valor que sobrar vai paras as bordas)*/
+    justify-content: space-evenly;
+    /* align-items: start; */
+    /* align-items: start; */
+    /* align-items: center; */
+    align-items: stretch;
+}
+
+#item-1{
+
+    height: 150px;
+
+}
+
+#item-2{
+    flex-grow: 5;
+}
