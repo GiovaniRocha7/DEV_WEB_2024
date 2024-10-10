@@ -1,0 +1,17 @@
+1 - Probabilidade
+a - 1/12
+
+2 - Sequencia
+b - 3.240
+
+3 - Sequencia
+d - 1
+
+4 -raciocinio
+e - Gado
+
+5 - Equivalencia
+e - nenhum brasileiro gosta de futebol
+
+6 - Analise combinatoria 
+b - 24 maneiras
