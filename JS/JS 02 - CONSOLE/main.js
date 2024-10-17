@@ -10,4 +10,3 @@ var nomeAluno = 0
 
 nomeAluno = "Jaozinho"
 
-var 
