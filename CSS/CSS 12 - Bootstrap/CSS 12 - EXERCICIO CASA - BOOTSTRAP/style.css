@@ -1,0 +1,26 @@
+h1{
+
+    border: 1px solid black;
+    padding: 1%;
+    background-color: goldenrod;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 3%;
+}
+
+table{
+    width: 95%;
+    border-collapse: collapse;
+    height: auto;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: wheat
+}
