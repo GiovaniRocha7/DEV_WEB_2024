@@ -1,63 +1,66 @@
-//  ARRAY DE OBJETOS
-let 
-let aluno ={
-    Nome: 'Manases B',
-    Idade:'12',
-    Altura:'1.56',
-    isCracha: true,
-    isCamisa: false,
-    isPaciencia: true,
-    isChora: true,
-    cor: 'Bege',
-    notas: [10, 8, 9, 7, 5.5, 6.5]
-    //      0   1  2  3   4    5
-}
+//Metodo = oque pode fazer  
+//Entidade = objeto
+//Propriedades = caracteristicas
 
-// transformar o obj em JSON
-console.log(aluno)
-
-console.log(JASON.stringify(aluno))
-
-let Jasonito = '{
-    '
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // RETORNAR O OBJETO
-// console.log(aluno)
-
-// // RETORNA APENAS O NOME
-// console.log(aluno.Nome)
-
-// // RETORNA APENAS O CAMPO ISCHORA
-// console.log(aluno.isChora)
-
-// // RETORNA APENAS O NOME
-// console.log('O aluno é ${aluno.Nome}')
-
-// for(i = 0; < IOS.length; i++){
-//     let login =IOS[i]
-//     if(login..isCracha ==true){
-//         console.log("O aluno tem cracha")
-//         console.log(login.isCracha)
-//     }else{
-//         console.log("Aluno não tem cracha")
-//     }
+// let aluno ={
+//     nome: 'Gio',
+//     idade: 18,
+//     altura: 1.57,
+//     isCracha: true,
+//     isCamisa: false,
+//     isPaciencia: true,
+//     isChora: true,
+//     cor: 'café com leite',
+//     notas: [10, 8, 9, 7, 8.5]
 // }
+
+let IOS = [
+    {
+        nome: 'Gio',
+        idade: 18,
+        altura: 1.76,
+        isCracha: true,
+        isCamisa: true,
+        isPaciencia: true,
+        isChora: true,
+        cor: 'rosa',
+        notas: [10, 8, 9, 7, 8.5]
+    },
+
+    {
+        nome: 'outro',
+        idade: 18,
+        altura: 1.76,
+        isCracha: false,
+        isCamisa: false,
+        isPaciencia: true,
+        isChora: true,
+        cor: 'branco',
+        notas: [10, 8, 9, 7, 8.5]
+    },
+
+    {
+        nome: 'outro',
+        idade: 18,
+        altura: 1.76,
+        isCracha: false,
+        isCamisa: true,
+        isPaciencia: true,
+        isChora: true,
+        cor: 'branco',
+        notas: [10, 8, 9, 7, 8.5]
+    }
+
+]
+
+console.log('camisa:' + IOS[0].isCamisa + ' chora:' + IOS[1].isChora)
+
+for (let i = 0; i < IOS.length; i++) {
+    let camisa = IOS[i]
+    if (camisa.isCamisa == true) {
+        console.log( ' tem camisa')
+    }
+    else{
+        console.log(' nao tem camisa')
+    }
+}
