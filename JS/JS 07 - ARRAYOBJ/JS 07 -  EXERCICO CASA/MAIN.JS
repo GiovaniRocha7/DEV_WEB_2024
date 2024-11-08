@@ -39,6 +39,8 @@ let aluno = [
 
 console.log(aluno)
 console.log(aluno[1])
-// console.log(aluno[5])
+console.log(aluno[5].nota) // O PONTO É UM EXTENSOR PARA CHAMAR ALGUM ELEMENTO
+// JASON PARA OBJ = parse /// OBJ PARA JASON = STRINGFY
+let JsonAluno = JSON.stringify(aluno)
 console.log(JSON.stringify(aluno))
 console.log(JSON.stringify(aluno))
