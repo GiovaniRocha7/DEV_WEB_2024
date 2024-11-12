@@ -9,6 +9,7 @@ class Aluno {
     }
 }
     
+
 let aluno1 = new Aluno("Manasses", 27, 1.90, true, true,"Black");
 console.log(aluno1);
 
