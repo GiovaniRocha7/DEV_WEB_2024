@@ -1,6 +1,6 @@
 let URL = 'https://dog.ceo/api/breeds/image/random'
 
-const DogApi = async () =>{
+const dogApi = async () =>{
     // faço a consulta na API e retorno o JSON na variavel respo
     let resp = await fetch(URL)
 
@@ -9,8 +9,8 @@ const DogApi = async () =>{
     console.log(resp);
 }
 
-const DogApi = async() =>{
+const dogapi= async() =>{
 
-    
+
 }
 
