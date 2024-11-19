@@ -9,5 +9,8 @@ const DogApi = async () =>{
     console.log(resp);
 }
 
-DogApi()
+const DogApi = async() =>{
+
+    
+}
 
